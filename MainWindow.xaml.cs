@@ -48,7 +48,7 @@ namespace Kovacs_Gyongyi_Elisabeta_Lab2
             //Doughnuts>Stop
             //comanda custom
             CommandBinding cmd2 = new CommandBinding();
-            cmd2.Command = CustomCommands.StopCommand.Launch;
+            cmd2.Command = VirtualDoughnutFactory.CustomCommands.StopCommand.Launch;
             cmd2.Executed += new
             ExecutedRoutedEventHandler(CtrlS_CommandHandler);//asociem handler
             this.CommandBindings.Add(cmd2);

@@ -62,7 +62,7 @@
                         <MenuItem x:Name = "vanillaFilledMenuItem" Header = "Vanilla" Click = "vanillaFilledMenuItem_Click" IsCheckable ="True"/>
                      </MenuItem>
                 </MenuItem>
-                <MenuItem x:Name="mnuStop" Header="Stop" Click="stopToolStripMenuItem_Click" InputGestureText="Ctrl+S" Command="CustomCommands:StopCommand.Launch"/>
+                <MenuItem x:Name="mnuStop" Header="Stop" Click="stopToolStripMenuItem_Click" InputGestureText ="Ctrl+S" Command ="CustomCommands:StopCommand.Launch"/>
 
             </MenuItem>
         </Menu>
